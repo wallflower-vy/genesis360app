@@ -1,14 +1,32 @@
-// import Image from 'next/image'
-// import { Inter } from 'next/font/google'
+import Head from "next/head";
+import Home from "./Home";
 
-// const inter = Inter({ subsets: ['latin'] })
+// import Business from "./Business/Business";
+// import Business from "./Business/Business";
 
-export default function Home() {
-  
+
+
+interface Props {
+ 
+  title: string;
+}
+
+
+
+export default function Index({  title }: Props) {
+
   return (
-   <div>
-    <h1 className="font-bold underline text-3xl">hello</h1>
-   </div>
-   
+    <>
+   <Head>
+        <title>{title ? title + "-Genesis360" : "Genesis"}</title>
+        <meta name='description' content='Ecommerce website'></meta>
+        <link rel='icon' href='/favicon.png' />
+      </Head>
+      
+    <Home />
+     
+      
+     
+   </> 
   )
 }
