@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import simplifyimg from "../../../public/assets/Simplifyimg.png";
+import simplifyimg from "../../../public/assets/simplifyimg.png";
 import googleplay from "../../../public/assets/googleplay.png";
 import appstore from "../../../public/assets/appstore.png";
 import appstore1 from "../../../public/assets/image 7.png";
