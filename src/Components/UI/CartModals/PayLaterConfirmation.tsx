@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { RiCloseCircleFill } from 'react-icons/ri'
-import paylater from '../../../public/assets/image 28 (2).png'
+import paylater from '../../../../public/assets/image 28 (2).png'
 
 const PayLaterConfirmation = () => {
   return (

@@ -1,10 +1,10 @@
 import Image from "next/image"
 import { RiCloseCircleFill } from "react-icons/ri"
-import dustbin from "../../../public/svg/dustbin.svg";
-import bama from "../../../public/assets/bama.png";
-import garri from "../../../public/assets/garri.png";
-import knorr from "../../../public/assets/knorr.png";
-import favorite from "../../../public/svg/add.svg";
+import dustbin from "../../../../public/svg/dustbin.svg";
+import bama from "../../../../public/assets/bama.png";
+import garri from "../../../../public/assets/garri.png";
+import knorr from "../../../../public/assets/knorr.png";
+import favorite from "../../../../public/svg/add.svg";
 
 
 

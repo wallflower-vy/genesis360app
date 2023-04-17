@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import idcard from "../public/assets/image 45.png";
+import idcard from "../../public/assets/image 45.png";
 
 const Kyc = () => {
   return (

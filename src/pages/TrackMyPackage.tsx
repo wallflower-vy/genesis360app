@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import trackimg from '../public/assets/trackimg.png'
+import trackimg from '../../public/assets/trackimg.png'
 const TrackMyPackage = () => {
   return (
     <div className='flex justify-between'>

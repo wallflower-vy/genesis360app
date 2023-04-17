@@ -21,7 +21,7 @@ const Cart = () => {
   return (
     <div>
       <ProductNav />  
-      {/* <KycDirector /> */}
+      <CheckoutUnsuccessful />
     </div>
   )
 }

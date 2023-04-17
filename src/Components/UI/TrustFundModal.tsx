@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
-import hidePass from "../../public/svg/hidepassword.svg";
-import showPass from "../../public/svg/showpassword.svg";
+import hidePass from "../../../public/svg/hidepassword.svg";
+import showPass from "../../../public/svg/showpassword.svg";
 
 import { RiCloseCircleFill } from "react-icons/ri";
 

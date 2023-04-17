@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import showPass from "../public/svg/show.svg";
+import showPass from "../../public/svg/show.svg";
 
 const Orders = () => {
   return (

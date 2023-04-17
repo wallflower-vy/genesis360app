@@ -1,7 +1,7 @@
 import React from "react";
 import { RiCloseCircleFill } from "react-icons/ri";
 import Image from "next/image";
-import Subs from "../../public/assets/image 28 (2).png";
+import Subs from "../../../public/svg/image 28 (2).png";
 
 const SubscriptionsuccesfulModal = () => {
   return (

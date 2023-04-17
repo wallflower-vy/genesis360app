@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import { RiCloseCircleFill } from 'react-icons/ri'
-import add from '../../../public/svg/add.svg'
-import dustbin from '../../../public/svg/dustbin.svg'
-import edit from '../../../public/svg/edit.svg'
+import add from '../../../../public/svg/add.svg'
+import dustbin from '../../../../public/svg/dustbin.svg'
+import edit from '../../../../public/svg/edit.svg'
 import {useState} from 'react'
 import { FiEdit2 } from 'react-icons/fi'
 

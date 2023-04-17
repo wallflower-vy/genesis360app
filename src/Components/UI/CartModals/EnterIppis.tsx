@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { RiCloseCircleFill } from "react-icons/ri";ippis
-import card from '../../../public/assets/card.png'
-import ippis from '../../../public/assets/image 25.png'
+
+import ippis from '../../../../public/assets/image 25.png'
 
 
 

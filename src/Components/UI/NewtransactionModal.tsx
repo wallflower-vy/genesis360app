@@ -1,8 +1,8 @@
 import React from 'react'
 import { RiCloseCircleFill } from "react-icons/ri";
 
-import Image from "next/image";
-import Sub from "../../public/assets/image 28.png"
+// import Image from "next/image";
+// import Sub from "../../public/assets/image 28.png"
 
 const NewtransactionModal = () => {
   return (

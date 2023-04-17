@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { RiCloseCircleFill } from "react-icons/ri";
-import card from '../../../public/assets/card.png'
+import card from '../../../../public/assets/card.png'
 
 const AddCard = () => {
   return (

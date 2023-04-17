@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import user from '../public/assets/user.png'
-import shop from '../public/assets/shop.png'
+import user from '../../public/assets/user.png'
+import shop from '../../public/assets/shop.png'
 import {useState} from 'react'
 
 const Profile = () => {

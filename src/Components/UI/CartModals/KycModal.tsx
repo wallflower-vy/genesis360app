@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiCloseCircleFill } from 'react-icons/ri'
-import kycmodal from '../../../public/assets/kycmodal.png'
+import kycmodal from '../../../../public/assets/kycmodal.png'
 import Image from 'next/image'
 
 const KycModal = () => {

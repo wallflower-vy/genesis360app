@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Sub from "../../public/assets/image 53.png";
+import Sub from "../../../public/assets/image 53.png";
 import { RiCloseCircleFill } from "react-icons/ri";
 
 const ReferafriendModal = () => {

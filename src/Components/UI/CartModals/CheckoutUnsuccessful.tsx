@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { RiCloseCircleFill } from 'react-icons/ri'
-import paylater from '../../../public/assets/failed.png'
+import paylater from '../../../../public/assets/failed.png'
 const CheckoutUnsuccessful = () => {
   return (
     <div className="fixed z-10 inset-0 overflow-y-auto bg-[#000000a6]">

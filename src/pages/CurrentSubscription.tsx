@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProductImage from '../public/assets/image15.png'
+import ProductImage from '../../public/assets/image15.png'
 
 const CurrentSubscription = () => {
   return (

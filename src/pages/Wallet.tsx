@@ -1,7 +1,7 @@
 import React from "react";
 import { IoWalletOutline } from "react-icons/io5";
 import Image from "next/image";
-import showPass from "../public/svg/show.svg";
+import showPass from "../../public/svg/show.svg";
 import { TfiArrowCircleRight} from "react-icons/tfi";
 import { TfiArrowCircleLeft} from "react-icons/tfi";
 import { BsFilterRight} from "react-icons/bs";

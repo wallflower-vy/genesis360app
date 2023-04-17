@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Modal.module.css";
-import logo from "../../public/assets/iPhone Space Deep Purple Right.png";
+// import logo from "../../public/assets/iPhone Space Deep Purple Right.png";
 import Image from "next/image";
 import appstore1 from "../../public/assets/image 7.png";
 import appstore2 from "../../public/assets/image 8.png";

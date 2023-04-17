@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiCloseCircleFill } from 'react-icons/ri'
-import paylater from '../../../public/assets/image 40.png'
+import paylater from '../../../../public/assets/image 40.png'
 import Image from 'next/image'
 import {useState} from 'react'
 
