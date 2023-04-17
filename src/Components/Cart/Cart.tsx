@@ -16,12 +16,13 @@ import InsuficientWallet from '../UI/CartModals/InsuficientWallet'
 import CheckoutUnsuccessful from '../UI/CartModals/CheckoutUnsuccessful'
 import EnterIppis from '../UI/CartModals/EnterIppis'
 import KycDirector from '../UI/CartModals/KycDirector'
+import NewtransactionModal from '../UI/NewtransactionModal'
 
 const Cart = () => {
   return (
     <div>
       <ProductNav />  
-      <CheckoutUnsuccessful />
+     
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import cart1 from '../../public/assets/cart1.png'
-import cart2 from '../../public/assets/cart2.png'
+import cart1 from '../../../public/assets/cart1.png'
+import cart2 from '../../../public/assets/cart2.png'
 // import cart3 from '../../public/assets/cart3.png'
 
 const EverythingThrive = () => {

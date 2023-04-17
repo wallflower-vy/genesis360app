@@ -1,8 +1,8 @@
 
 import Image from 'next/image'
 import React from 'react';
-import agricimg from '../../public/assets/agricimg.png';
-import arrow from '../../public/svg/arrow.svg'
+import agricimg from '../../../public/assets/agricimg.png';
+import arrow from '../../../public/svg/arrow.svg'
 
 const AgricProducts = () => {
   return (

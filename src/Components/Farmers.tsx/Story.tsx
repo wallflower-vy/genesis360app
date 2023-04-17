@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Farmerstory from '../../public/assets/Farmerstory.png'
+import Farmerstory from '../../../public/assets/Farmerstory.png'
 
 
 const Story = () => {

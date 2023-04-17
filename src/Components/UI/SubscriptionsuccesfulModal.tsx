@@ -15,7 +15,7 @@ const SubscriptionsuccesfulModal = () => {
       <p className="text-[20px] mt-[30px] leading-[26px] font-semibold text-center">
       Congratulations! You have successfully subscribe to the Family of Three Subscription Package. You will receive a confirmation email or SMS. 
       </p>
-      <button className="h-[50px] mt-[20px] bg-green w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
+      <button className="h-[50px] mt-[20px]  w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
       Close      </button>
     </div>
   );

@@ -16,7 +16,7 @@ const SubscriptionConfirmationModal = () => {
         </div>
 
         <p className='text-[20px] mt-[30px] leading-[26px] font-semibold text-center'>You are about to subscribe to our <span className='text-[#254AA5]'> Family of Three Subscription Package </span>which would be delivered to you monthly on the <span className='text-[#254AA5]'>25th March</span>  for the <span className='text-[#254AA5]'>Next 3 Months</span> and you would be charged monthly for the goods and the delivery.</p>
-        <button className="h-[50px] mt-[20px] bg-green w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
+        <button className="h-[50px] mt-[20px] w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
         Proceed to Pay        </button>
     </div>  
 )

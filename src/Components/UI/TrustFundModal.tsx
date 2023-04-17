@@ -113,7 +113,7 @@ const TrustFundModal = () => {
           </div>
         </div>
 
-        <button className="h-[50px] mt-[20px] bg-green w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
+        <button className="h-[50px] mt-[20px]  w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
           Transfer Fund{" "}
         </button>
       </form>

@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import farmersimg from '../../public/assets/farmersimg.png'
+import farmersimg from '../../../public/assets/farmersimg.png'
 
 
 const FarmerHero = () => {
