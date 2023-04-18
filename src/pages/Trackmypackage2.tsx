@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from "next/image";
-import img2 from "../public/assets/Rectangle 691 (1).png";
-import img1 from "../public/assets/Rectangle 345 (1).png";
-import img3 from "../public/assets/Vector 39.png";
-import img4 from "../public/assets/Rectangle 692 (1).png";
+import img2 from "../../public/assets/Rectangle 691 (1).png";
+import img1 from ".../../public/assets/Rectangle 345 (1).png";
+import img3 from ".../../public/assets/Vector 39.png";
+import img4 from "../../public/assets/Rectangle 692 (1).png";
 
 const Trackmypackage2 = () => {
   return (

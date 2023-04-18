@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
-import img1 from "../public/assets/Rectangle 345 (1).png";
-import img2 from "../public/assets/image 54 (1).png";
+import img1 from "../../public/assets/Rectangle 345 (1).png";
+import img2 from "../../public/assets/assets/image 54 (1).png";
 const Trackmypackage3 = () => {
   return (
     <div className='flex text-green space-x-[30px]'>

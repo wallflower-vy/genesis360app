@@ -54,7 +54,7 @@ const Checkexistingcollection = () => {
           <h2 className='text-[20px] font-medium leading-[25px]'>5th of The Next 3 Months</h2>       
         </div>
 
-      <button className="h-[50px] mt-[20px] bg-[#183D36] w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
+      <button className="h-[50px] mt-[20px] w-[100%] font-bold  text-white text-[20px] bg-[#90DD3E]">
         Cancel Subscription        </button>
     
     </div>  
