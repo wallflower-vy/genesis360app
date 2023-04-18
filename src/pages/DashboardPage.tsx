@@ -1,8 +1,18 @@
 import React from 'react'
 import { MdOutlineAccountBalanceWallet} from 'react-icons/md';
 import { FaExclamation } from 'react-icons/fa';
-
+import {useState} from 'react'
+import Loanrepaymentmodal from '@/Components/UI/Loanrepaymentmodal';
 const DashboardPage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className=''>
 
@@ -62,7 +72,8 @@ const DashboardPage = () => {
               </div>
             </div>
             
-            <button className='text-[#fff] py-4 px-8 w-[100%] mt-[30px] font-bold text-center bg-lightgreen text-[20px]'>Make a Repayment Now</button>
+            <button className='text-[#fff] py-4 px-8 w-[100%] mt-[30px] font-bold text-center bg-lightgreen text-[20px]' onClick={handleOpenModal} >Make a Repayment Now</button>
+            {isModalOpen ? <Loanrepaymentmodal isOpen onClose={handleCloseModal}/>:''}
         </div>
 
     </div>

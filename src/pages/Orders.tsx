@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import showPass from "../../public/svg/show.svg";
 
+
+
+
 const Orders = () => {
+  
   return (
     <>
     <h2 className="text-[32px] font-bold">Orders</h2>
-    <table className="w-full border-collapse bg-gray-100 mt-[30px]">
+    <table className="w-full border-collapse  mt-[30px]">
       <thead className="">
         <tr className="text-left border-2 text-[15px] font-semibold  border-[#DFE5FF]">
           <th className="p-2">Order ID</th>
@@ -26,7 +30,8 @@ const Orders = () => {
           <td className="p-3">BNPL</td>
           <td className="p-3">Door Delivery</td>
           <td className="p-3"><button className='text-[#fff] px-2 py-1 font-bold text-center bg-[#F44336] text-[12px]'>Cancelled</button></td>
-          <td className="p-3"><Image src={showPass} alt=""  /></td>
+       <td className="p-3"><Image src={showPass} alt="" /></td>
+     
         </tr>
         
         <tr className="text-left border-2 border-[#DFE5FF]">

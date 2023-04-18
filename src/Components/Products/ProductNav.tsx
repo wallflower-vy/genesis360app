@@ -16,7 +16,7 @@ const ProductNav = () => {
           <input
             type="text"
             placeholder="Search  for Products & Brands"
-            className="text-green border-4 p-2 w-[75%]"
+            className="text-green border-green border-4 p-2 w-[75%]"
           />
           <button className="bg-lightgreen  text-white w-[25%]">Search</button>
         </div>

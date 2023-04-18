@@ -1,6 +1,6 @@
 import Image from "next/image";
-import dustbin from "../../public/svg/dustbin.svg";
-import favorite from "../../public/svg/favorite.svg";
+import dustbin from "../../../public/svg/dustbin.svg";
+import favorite from "../../../public/svg/favorite.svg";
 
 const MainCart = () => {
   return (
@@ -11,7 +11,7 @@ const MainCart = () => {
       </div>
       <div className='shadow-[0px_0px_5px_0px_#0000004D] mt-10  bg-white w-full py-8 px-[4rem]'>
         <p className='text-green text-2xl font-bold'>Purchase Order Cart</p>
-        <table className='w-full border-collapse bg-gray-100 mt-[30px]'>
+        <table className='w-full border-collapse mt-[30px]'>
           <thead className=''>
             <tr className='text-left border-2 text-[15px] font-semibold  border-[#DFE5FF]'>
               <th className='p-2'>Product</th>
