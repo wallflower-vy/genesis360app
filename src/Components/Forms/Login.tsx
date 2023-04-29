@@ -22,7 +22,7 @@ function Login() {
   };
 
   const handleclik2 = () => {
-    router.push("/ProductList");
+    router.push("/Product");
   };
   return (
     <div className=" bg-background flex flex-col justify-center  py-[40px]  max-lg:pt-[190px]">

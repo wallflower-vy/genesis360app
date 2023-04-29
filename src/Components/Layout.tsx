@@ -1,4 +1,4 @@
-import Product from "@/pages/ProductList";
+import Product from "@/pages/Product";
 import Footer from "./Footer/Footer";
 import NavBar from "./Navbar/NavBar";
 import { useState } from "react";
