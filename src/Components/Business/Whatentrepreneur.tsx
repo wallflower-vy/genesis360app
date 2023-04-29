@@ -31,24 +31,24 @@ const peoplethink=[
 
 const Whatentrepreneur = () => {
   return (
-    <div className='bg-background px-[8rem] pb-[2rem] pt-[5rem] flex flex-col items-center justify-center'>
-    <div className='w-[60%]'>
-    <h1 className='text-5xl text-center text-green font-extrabold leading-[70px]'>What Other Entrepreneurs Thinks about Genesis360</h1>
-    </div>
-    <div className=" flex gap-5 mt-[6rem] justify-center">
-          {peoplethink.map((item, index)=>{
-            return <div key={index} className='bg-lightblue p-6'>
-             <div className='flex justify-center mt-[-6rem]'> <Image src={item.image} alt='cardimg' /> </div>
-              <p className=' text-xl mt-5 font-semibold text-green'>{item.text}</p>
-              <div className='mt-10'>
-              <p className='text-2xl font-bold text-green'>{item.title}</p>
-              <p className='text-xl font-medium text-green'>{item.subtitle}</p>
-              </div>
-                                 
-            </div>
-          })}
-
+    <div className='bg-background px-[8rem] pb-[2rem] pt-[5rem] flex flex-col items-center justify-center max-xl:px-4'>
+      <div className='w-[60%] max-lg:w-[100%]  '>
+      <h1 className='text-5xl text-center text-green max-lg:leading-[45px] font-extrabold leading-[70px] max-lg:text-[35px]'>What Other Entrepreneurs Thinks about Genesis360</h1>
       </div>
+      <div className=" flex gap-5 mt-[6rem] justify-center max-lg:flex-col max-lg:mt-4">
+            {peoplethink.map((item, index)=>{
+              return <div key={index} className='bg-lightblue p-6 mt-[5rem] max-lg:p-4'>
+              <div className='flex justify-center mt-[-6rem]'> <Image src={item.image} alt='cardimg' /> </div>
+                <p className=' text-xl mt-5 font-semibold text-green max-md:text-[18px] max-md:leading-[22px] max-md:font-medium'>{item.text}</p>
+                <div className='mt-10 max-md:mt-[25px]'>
+                <p className='text-2xl font-bold text-green max-md:text-[20px] max-md:leading-[25px] '>{item.title}</p>
+                <p className='text-xl font-medium text-green max-md:text-[16px] max-md:leading-[22px]'>{item.subtitle}</p>
+                </div>
+                                  
+              </div>
+            })}
+
+        </div>
 
 </div>
   )
