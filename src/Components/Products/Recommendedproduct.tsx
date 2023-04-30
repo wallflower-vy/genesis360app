@@ -17,9 +17,9 @@ type Props = {
 };
 const Recommendedproduct = ({ data, onLoadMore }: Props) => {
   
-  const [selectedItemIndex, setSelectedItemIndex] = useState<number>(-1);
+  
   const [isProductOpen, setIsProductOpen] = useState(false);
-  const selectedData = selectedItemIndex !== -1 ? data[selectedItemIndex] : null;
+  
  
   const handleOpenProductModal = () => {
     setIsProductOpen(true);

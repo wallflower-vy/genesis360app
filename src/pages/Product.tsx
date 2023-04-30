@@ -4,12 +4,12 @@ import ProductListHero from '@/Components/Products/ProductListHero'
 import ProductLayout from '@/Components/Products/ProductNav'
 import Recommendedproduct from '@/Components/Products/Recommendedproduct'
 import SubscriptionPackages from '@/Components/Products/SubscriptionPackages'
+import PageModal from '@/Components/UI/PageModal'
 
-// import PageModal from '@/Components/UI/PageModal'
+
 import axios from 'axios'
-import { GetServerSideProps, GetStaticProps } from 'next'
+
 import React, {  useEffect, useState } from 'react'
-import { MdKeyboardArrowDown } from 'react-icons/md'
 
 
 
