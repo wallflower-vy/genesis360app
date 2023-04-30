@@ -10,16 +10,9 @@ import axios from 'axios'
 import { GetServerSideProps, GetStaticProps } from 'next'
 import React, {  useEffect, useState } from 'react'
 import { MdKeyboardArrowDown } from 'react-icons/md'
-// import Product from '../interfaces/product'
 
-type Props = {
-  data: any;
-};
-// interface productData {
-//   id: number;
-//   name: string;
-//   description: string;
-// }
+
+
 interface productData {
   data:any
 }
@@ -31,7 +24,7 @@ const Product = () => {
   const [loadMoreVisible, setLoadMoreVisible] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [showModal, setShowModal] = useState<boolean>(false);
-  // const [isLoadingMore, setIsLoadingMore] = useState<boolean>(false);
+  
 
   
 

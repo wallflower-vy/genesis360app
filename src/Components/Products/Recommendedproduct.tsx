@@ -1,11 +1,10 @@
 
 import Image from 'next/image'
 import React, { useState } from 'react';
-import product1 from "../../../public/assets/image 9.png";
 import { AiOutlineHeart } from 'react-icons/ai';
 import {MdKeyboardArrowDown} from 'react-icons/md'
 import ProductModal from '../UI/ProductModal';
-// import Product from '@/interfaces/product';
+
 
 
 
@@ -14,10 +13,7 @@ type Props = {
   data: any;
   onLoadMore: () => void;
   
-  // src: string;
-  // alt: string;
-  // width: number;
-  // height: number;
+  
 };
 const Recommendedproduct = ({ data, onLoadMore }: Props) => {
   
@@ -69,9 +65,9 @@ const Recommendedproduct = ({ data, onLoadMore }: Props) => {
         {isProductOpen && <ProductModal />}
 
         <div className='flex justify-center mt-9 '>
-        {/* {loadMoreVisible && ( */}
+       
             <button className='bg-lightgreen  w-[50%] p-3 font-bold text-xl text-white' onClick={onLoadMore}  >See More Product <MdKeyboardArrowDown  className='inline text-xl'/></button>
-             {/* )}  */}
+          
             </div>
     </div>
   )
