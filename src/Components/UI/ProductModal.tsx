@@ -30,7 +30,7 @@ const ProductModal = () => {
                 <div className='w-[60%]'>
                 <h1 className='text-3xl font-normal   text-green'>Golden Penny Premium Quality Semolina - 1kg</h1>
                 </div>
-                <AiFillCloseCircle  className='text-[3rem] text-green cursor-pointer' />
+                <AiFillCloseCircle  className='text-[3rem] text-green cursor-pointer'/>
                 </div>
                 <p className='font-bold text-4xl text-green mt-5'>₦6,400</p>
             </div>

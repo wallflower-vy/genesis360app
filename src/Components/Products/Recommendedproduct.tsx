@@ -12,26 +12,23 @@ import ProductModal from '../UI/ProductModal';
 
 type Props = {
   data: any;
+  onLoadMore: () => void;
+  
   // src: string;
   // alt: string;
   // width: number;
   // height: number;
 };
-const Recommendedproduct = ({ data  }: Props) => {
-  const [visibleUsers, setVisibleUsers] = useState(data.slice(0, 10));
- 
-  function handleLoadMore() {
-    const newVisibleUsers = data.slice(0, visibleUsers.length + 4);
-    setVisibleUsers(newVisibleUsers);
-  }
-  const [isProductOpen, setIsProductOpen] = useState(false);
+const Recommendedproduct = ({ data, onLoadMore }: Props) => {
   
-
+  const [selectedItemIndex, setSelectedItemIndex] = useState<number>(-1);
+  const [isProductOpen, setIsProductOpen] = useState(false);
+  const selectedData = selectedItemIndex !== -1 ? data[selectedItemIndex] : null;
+ 
   const handleOpenProductModal = () => {
     setIsProductOpen(true);
   };
-   
-  
+
   return (
     <div className='px-[8rem] bg-background'>
         <p className='text-green text-4xl font-bold'>Recommended Products</p>
@@ -72,9 +69,9 @@ const Recommendedproduct = ({ data  }: Props) => {
         {isProductOpen && <ProductModal />}
 
         <div className='flex justify-center mt-9 '>
-        {visibleUsers.length < data.length && (
-            <button className='bg-lightgreen  w-[50%] p-3 font-bold text-xl text-white' onClick={handleLoadMore}>See More Product <MdKeyboardArrowDown  className='inline text-xl'/></button>
-            )}
+        {/* {loadMoreVisible && ( */}
+            <button className='bg-lightgreen  w-[50%] p-3 font-bold text-xl text-white' onClick={onLoadMore}  >See More Product <MdKeyboardArrowDown  className='inline text-xl'/></button>
+             {/* )}  */}
             </div>
     </div>
   )
