@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { AiOutlineHeart } from 'react-icons/ai';
 import {MdKeyboardArrowDown} from 'react-icons/md'
 import ProductModal from '../UI/ProductModal';
-
+import productimg from '../../../public/assets/image 9.png'
 
 
 
@@ -12,18 +12,14 @@ import ProductModal from '../UI/ProductModal';
 type Props = {
   data: any;
   onLoadMore: () => void;
+  onProductClick: (product: any) => void;
   
   
 };
-const Recommendedproduct = ({ data, onLoadMore }: Props) => {
+const Recommendedproduct = ({ data, onLoadMore, onProductClick }: Props) => {
   
   
-  const [isProductOpen, setIsProductOpen] = useState(false);
   
- 
-  const handleOpenProductModal = () => {
-    setIsProductOpen(true);
-  };
 
   return (
     <div className='px-[8rem] bg-background'>
@@ -36,17 +32,19 @@ const Recommendedproduct = ({ data, onLoadMore }: Props) => {
             return (
               <>
               
-              <div className='bg-white shadow-xl px-4  pt-4 pb-6 cursor-pointer ' key={item.id}   onClick={handleOpenProductModal}>
-                <div className='bg-background'>
+              <div className='bg-white shadow-xl px-4  pt-4 pb-6 cursor-pointer ' key={item.id}   onClick={() => onProductClick(item)}>
+              <div className='relative top-12 flex justify-center items-center rounded-full h-[2rem] w-[2rem] ml-3   bg-white '><AiOutlineHeart className=' text-2xl cursor-pointer'/></div>
+                <div className='bg-background w-[100%] h-[400px]  p-5 justify-center flex flex-col items-center'>
+               
                     <Image  src={item?.product?.image}
                             alt='product-image'
-                            width={600}
-                            height={400}
-                            className="object-contain w-full h-full" />
-                    <AiOutlineHeart className='relative top-[-17rem] left-4 text-2xl cursor-pointer'/>
+                            width={500}
+                            height={800}
+                            className="object-cover  " />
+                   
                 </div>
-               <div className=' '>
-                    <p className='text-green text-[20px] font-normal h-[80px]'>{item.product.product_name}</p>
+               <div className='mt-5 '>
+                    <p className='text-green text-[20px] font-normal h-[60px]'>{item.product.product_name}</p>
                     <p className='text-green text-[30px] font-bold'>₦{item.product.price}</p>
                </div>
 
@@ -62,7 +60,7 @@ const Recommendedproduct = ({ data, onLoadMore }: Props) => {
 
             
         </div>
-        {isProductOpen && <ProductModal />}
+      
 
         <div className='flex justify-center mt-9 '>
        
