@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import product1 from "../../../public/assets/image 9.png";
+
 import {AiFillCloseCircle} from 'react-icons/ai'
-import {useState} from 'react'
+
 
 interface ModalProps {
   data: any;

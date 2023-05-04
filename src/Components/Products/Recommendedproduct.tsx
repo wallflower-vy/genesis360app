@@ -3,8 +3,6 @@ import Image from 'next/image'
 import React, { useState } from 'react';
 import { AiOutlineHeart } from 'react-icons/ai';
 import {MdKeyboardArrowDown} from 'react-icons/md'
-import ProductModal from '../UI/ProductModal';
-import productimg from '../../../public/assets/image 9.png'
 
 
 
